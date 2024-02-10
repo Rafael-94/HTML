@@ -34,3 +34,11 @@ header {
   text-decoration: none;
   color: white;
 }
+
+header > div {
+  display: flex;
+  justify-content: sapace space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
